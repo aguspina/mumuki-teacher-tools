@@ -22,3 +22,15 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 @import 'main/main.scss';
 @import 'modal/modal.scss';
 // endinjector
+
+@font-face {
+  font-family: "AhahaMojimoji";
+  src:
+    url('../assets/fonts/AhahaMojimoji.woff') format("woff"),
+    url('../assets/fonts/AhahaMojimoji.ttf') format("ttf"),
+    url('../assets/fonts/AhahaMojimoji.svg') format("svg");
+}
+
+.ahahamojimoji {
+  font-family: "AhahaMojimoji", Verdana, Tahoma;
+}
